@@ -1,15 +1,11 @@
 #국토스크래핑
-from os import sep
-from pandas import DataFrame
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import datetime
 import time
 import math
-import json
-import numpy as np
-import pandas as pd
 import logging
+
+
 def kukto():
     try:
         options = webdriver.ChromeOptions()
